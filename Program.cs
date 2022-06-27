@@ -34,6 +34,7 @@ namespace SavannahAssessment
 
 
             /*==========================================PUSH()=====================================*/
+
             Stack stk = new Stack();
             stk.Push("Welcome");
             stk.Push("To Justus Example");
@@ -43,6 +44,7 @@ namespace SavannahAssessment
             stk.Push(100);
             Console.WriteLine("Number of Elements in Stack: {0}", stk.Count);
             Console.WriteLine("******Stack Elements For Push******");
+
             // Access Stack Elements
             foreach (var item in stk)
             {
